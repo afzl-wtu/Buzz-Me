@@ -1,4 +1,4 @@
-import 'package:buzz_me/home.dart';
+import 'package:buzz_me/screens/SignIn.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Home(),
+      home: SignIns(),
       debugShowCheckedModeBanner: false,
     );
   }
